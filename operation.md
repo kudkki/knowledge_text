@@ -8,22 +8,36 @@
 * [Linux標準教科書](https://linuc.org/textbooks/linux/)
 
 ## リリース作業の前提知識
-
-
+手順書の罠
+  手順の意味 求める結果
+  手順の成否を確認する手順は省略される
+コピペ作業の罠
+  行末の改行
+  全角の空白文字や制御文字す
+  文字コード
+並行作業の罠
+  自分が今どこにいて何をしてたサーバに何をするのか
+サービス特性の罠
+  サービスを継続させているかどうか把握できてるか
+  サービスを止めたマシンだけを処理する
 
 ## ssh/shell/screen一般教養
 * ssh
+    * 公開鍵認証 ssh-agent
+    * ターミナルソフト 鍵転送 スクロールバッファ
 * bash
-* screen
-* tmuxマルチssh 複数サーバへ同時接続して作業
-[tmux + ssh + Mackerel API を組み合わせたとにかくモダンなサーバオペレーション](https://blog.yuuk.io/entry/tmux-ssh-mackerel)
+    * emacsキーバインド 素早く正確に操作
+* screen  
+  [SCREEN](https://linuxjm.osdn.jp/html/GNU_screen/man1/screen.1.html)
+    * 複数window マルチsshして並行コマンド実行
+
 
 ## 負荷分散について
 * ロードバランサとは
-[「Linux Virtual Server」と「Keepalived」で作る冗長化ロードバランサ](https://knowledge.sakura.ad.jp/274/)
+  [「Linux Virtual Server」と「Keepalived」で作る冗長化ロードバランサ](https://knowledge.sakura.ad.jp/274/)
 * vipの作り方
-[IDCFクラウドでkeepalivedを使ったLVS構築(1)](https://blog.idcf.jp/entry/cloud/keepalived/)
-[IDCFクラウドでkeepalivedを使ったLVS構築(2)](https://blog.idcf.jp/entry/cloud/keepalived2/)
+  [IDCFクラウドでkeepalivedを使ったLVS構築(1)](https://blog.idcf.jp/entry/cloud/keepalived/)
+  [IDCFクラウドでkeepalivedを使ったLVS構築(2)](https://blog.idcf.jp/entry/cloud/keepalived2/)
 * サービスインサービスアウト
 
 
@@ -36,4 +50,9 @@
 
 ## 監視について
 * nagiosの操作方法
-    * 監視通知を止める/再開する
+  * 監視通知を止める/再開する
+
+# メモ
+* screenでなくtmuxが使える場合  
+tmuxマルチssh 複数サーバへ同時接続して作業  
+  [tmux + ssh + Mackerel API を組み合わせたとにかくモダンなサーバオペレーション](https://blog.yuuk.io/entry/tmux-ssh-mackerel)
