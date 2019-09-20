@@ -9,24 +9,23 @@
 
 ## リリース作業の前提知識
 * 手順書の罠
-    * 手順の意味 求める結果
-    * 手順の成否を確認する手順は省略される
+    * 手順の意味 求める結果 成否の確認 などが省略される
 * コピペ作業の罠
-    * 行末の改行
-    * 全角の空白文字や制御文字す
+    * 行末の改行 全角の空白文字や制御文字
     * 文字コード
 * 並行作業の罠
     * 自分が今どこにいて何をしてたサーバに何をするのか
 * サービス特性の罠
     * サービスを継続させているかどうか把握できてるか
-    * サービスを止めたマシンだけを処理する
+    * サービスを止めたマシンだけを処理することができてるか
 
 ## ssh/shell/screen一般教養
 * ssh
     * 公開鍵認証 ssh-agent
     * ターミナルソフト 鍵転送 スクロールバッファ
 * bash
-    * emacsキーバインド 素早く正確に操作
+    * emacsキーバインドで素早く正確に操作
+    * bashrc ailias
 * screen  
   [SCREEN](https://linuxjm.osdn.jp/html/GNU_screen/man1/screen.1.html)
     * 複数window マルチsshして並行コマンド実行
@@ -56,3 +55,4 @@
 * screenでなくtmuxが使える場合  
 tmuxマルチssh 複数サーバへ同時接続して作業  
   [tmux + ssh + Mackerel API を組み合わせたとにかくモダンなサーバオペレーション](https://blog.yuuk.io/entry/tmux-ssh-mackerel)
+* [Linuxサーバでカジュアルに作業ログを取得する方法](https://qiita.com/keigodasu/items/3eebbc079274ad8dd2c2)
