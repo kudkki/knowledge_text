@@ -37,19 +37,19 @@
 * vipの作り方
   [IDCFクラウドでkeepalivedを使ったLVS構築(1)](https://blog.idcf.jp/entry/cloud/keepalived/)
   [IDCFクラウドでkeepalivedを使ったLVS構築(2)](https://blog.idcf.jp/entry/cloud/keepalived2/)
-* サービスインサービスアウト
+* サービスインサービスアウト  
+ヘルスチェック
 
 
 ## パッケージマネージャについて
-* rpm
-* yum
+* rpm yum  
+[rpm と yum を今更理解したい](httpsす://qiita.com/spadeloves/items/2d829e33d7a9c1b36923)
 
 ## CI/CDについて
 * chefが実行される仕組み
 
 ## 監視について
-* nagiosの操作方法
-  * 監視通知を止める/再開する
+* nagiosの基本
 
 ## メモ
 * screenでなくtmuxが使える場合  
