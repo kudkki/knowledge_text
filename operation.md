@@ -43,7 +43,7 @@
 
 ## パッケージマネージャについて
 * rpm yum  
-[rpm と yum を今更理解したい](httpsす://qiita.com/spadeloves/items/2d829e33d7a9c1b36923)
+[rpm と yum を今更理解したい](https://qiita.com/spadeloves/items/2d829e33d7a9c1b36923)
 
 ## CI/CDについて
 * chefが実行される仕組み
