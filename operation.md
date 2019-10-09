@@ -27,7 +27,8 @@
     * emacsキーバインドで素早く正確に操作
     * bashrc ailias
 * screen  
-  [SCREEN](https://linuxjm.osdn.jp/html/GNU_screen/man1/screen.1.html)
+  [SCREEN](https://linuxjm.osdn.jp/html/GNU_screen/man1/screen.1.html)  
+  [GNU Screen](https://wiki.archlinux.jp/index.php/GNU_Screen)
     * 複数window マルチsshして並行コマンド実行
 
 
