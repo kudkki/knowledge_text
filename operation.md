@@ -6,6 +6,7 @@
 
 ## 前提知識
 * [Linux標準教科書](https://linuc.org/textbooks/linux/)
+* [The Art of Command Line](https://yakst.com/ja/posts/2545)
 
 ## リリース作業の前提知識
 * 手順書の罠
